@@ -11,5 +11,7 @@ qemu-guest-agent:
   uts: host
   volumes_from:
   - command-volumes
+  - system-volumes
+  - user-volumes
   volumes:
   - /dev:/host/dev
